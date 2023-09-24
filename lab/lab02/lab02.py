@@ -31,6 +31,9 @@ def composite_identity(f, g):
     False
     """
     "*** YOUR CODE HERE ***"
+    def helper(x):
+        return composer(f,g)(x) == composer(g,f)(x)
+    return helper
 
 
 def sum_digits(y):
