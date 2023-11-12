@@ -1,0 +1,4 @@
+'Account-correct', (0, 66)
+'FreeChecking-correct', (512, 66)
+'Player.__init__-correct', (1024, 66)
+'TutorCard.effect-correct', (1536, 66)
